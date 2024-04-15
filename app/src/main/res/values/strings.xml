@@ -9,4 +9,9 @@
     <string name="plus_sign_btn">+</string>
     <string name="dummy_playlist">Pop</string>
     <string name="dummy_artist_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet nunc eu tortor tristique, nec venenatis odio vestibulum. Fusce eleifend ligula ac nisl feugiat, vitae scelerisque felis bibendum. Fusce maximus, tortor quis dictum dapibus, purus magna fermentum augue, ut laoreet sem sapien id odio.</string>
+    <string name="search_placeholder">Got something in mind? Let\'s find it!</string>
+    <string name="recent_searches">Recent Searches</string>
+    <string name="browse_all">Browse All Genres</string>
+    <string name="dummy_album_name_1">Album 1</string>
+    <string name="dummy_album_name_2">Album 2</string>
 </resources>

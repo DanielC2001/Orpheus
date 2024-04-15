@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="orpheus_black">#0C161B</color>
     <color name="playlist_grey">#4C4949</color>
+    <color name="light_text_grey">#B1A4A4</color>
 </resources>
