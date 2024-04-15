@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    android:background="@color/orpheus_black"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.orpheus.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        android:background="@color/orpheus_black"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.orpheus.ui.search.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_playlists"
+        android:name="com.orpheus.ui.playlists.PlaylistsFragment"
+        android:label="@string/title_user_playlist"
+        tools:layout="@layout/fragment_playlists" />
+</navigation>

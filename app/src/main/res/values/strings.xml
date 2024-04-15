@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Orpheus</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_user_playlist">Playlists</string>
+    <string name="song_album_art_desc">This is a song\'s album art</string>
+    <string name="dummy_artist">Mk.gee</string>
+    <string name="dummy_song">Candy</string>
+    <string name="plus_sign_btn">+</string>
+    <string name="dummy_playlist">Pop</string>
+    <string name="dummy_artist_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet nunc eu tortor tristique, nec venenatis odio vestibulum. Fusce eleifend ligula ac nisl feugiat, vitae scelerisque felis bibendum. Fusce maximus, tortor quis dictum dapibus, purus magna fermentum augue, ut laoreet sem sapien id odio.</string>
+</resources>

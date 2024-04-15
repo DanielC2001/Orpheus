@@ -1,0 +1,12 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Orpheus" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item><!-- Changes display color of what is currently selected/viewed -->
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/black</item><!-- Changes color of bar where the time is-->
+        <item name="colorSurface">@color/black</item><!-- Changes the color of the container under the status bar and the bottom bar -->
+        <item name="colorOnSurface">@color/white</item><!-- Changes the font color of anything not selected -->
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
