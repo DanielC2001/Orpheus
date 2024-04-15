@@ -5,7 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.RecyclerView
+import androidx.viewpager2.widget.ViewPager2
+import com.orpheus.R
 import com.orpheus.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
@@ -21,13 +23,17 @@ class HomeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val homeViewModel = ViewModelProvider(this)[HomeViewModel::class.java]
 
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
-        val root: View = binding.root
+        val root = binding.root
+        val musicFeed = MusicFeedDataset()
 
+        val musicFeedPagerAdapter = ViewPager2Adapter(musicFeed.musicFeed)
+        val musicFeedPager = root.findViewById<ViewPager2>(R.id.song_feed_pager)
+        musicFeedPager.adapter = musicFeedPagerAdapter
 
-        return root
+        musicFeedPager.orientation = ViewPager2.ORIENTATION_VERTICAL
+        return binding.root
     }
 
     override fun onDestroyView() {
